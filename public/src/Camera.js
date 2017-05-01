@@ -7,7 +7,6 @@ var Camera = class Camera {
         Camera._position = [0, 0];
 
         Camera._stateInterpolator = new StateInterpolator();
-        // Camera._stateInterpolator.push(0, {position: [0, 0]});
     }
 
     static update(time, interval) {
