@@ -1,0 +1,20 @@
+{
+  "name": "game-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha tests --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "1.6.2"
+  },
+  "dependencies": {
+    "express": "4.15.2",
+    "mocha": "3.2.0",
+    "unit.js": "2.0.0"
+  }
+}
